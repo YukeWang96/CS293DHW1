@@ -1,0 +1,518 @@
+2018-11-01 04:24:59.687 INFO  (main) [   ] o.e.j.u.log Logging initialized @1215ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-11-01 04:24:59.874 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+2018-11-01 04:24:59.906 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/50500/HW01/solr-7.5.0/server/contexts/] at interval 0
+2018-11-01 04:25:00.716 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-11-01 04:25:00.732 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-11-01 04:25:00.732 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-11-01 04:25:00.732 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 660000ms
+2018-11-01 04:25:00.841 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-11-01 04:25:00.888 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-11-01 04:25:00.903 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.5.0
+2018-11-01 04:25:00.903 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-11-01 04:25:00.903 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\50500\HW01\solr-7.5.0
+2018-11-01 04:25:00.903 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-11-01T04:25:00.903Z
+2018-11-01 04:25:00.935 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\50500\HW01\solr-7.5.0\server\solr
+2018-11-01 04:25:00.950 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\50500\HW01\solr-7.5.0\server\solr\solr.xml
+2018-11-01 04:25:01.032 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487, but no JMX reporters were configured - adding default JMX reporter.
+2018-11-01 04:25:02.064 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-11-01 04:25:02.064 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-11-01 04:25:02.143 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-11-01 04:25:02.143 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-11-01 04:25:02.158 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-11-01 04:25:02.189 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\50500\HW01\solr-7.5.0\server\solr
+2018-11-01 04:25:02.189 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [trec-4-5]
+2018-11-01 04:25:02.252 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrResourceLoader [trec-4-5] Added 58 libs to classloader, from paths: [/C:/Users/50500/HW01/solr-7.5.0/contrib/clustering/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/extraction/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/langid/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/velocity/lib, /C:/Users/50500/HW01/solr-7.5.0/dist]
+2018-11-01 04:25:02.439 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-11-01 04:25:02.627 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.IndexSchema [trec-4-5] Schema name=default-config
+2018-11-01 04:25:02.767 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@445b295b{/solr,file:///C:/Users/50500/HW01/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\50500\HW01\solr-7.5.0\server/solr-webapp/webapp}
+2018-11-01 04:25:02.783 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@749c877b{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-11-01 04:25:02.783 INFO  (main) [   ] o.e.j.s.Server Started @4314ms
+2018-11-01 04:25:03.114 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field docno
+2018-11-01 04:25:03.145 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.CoreContainer Creating SolrCore 'trec-4-5' using configuration from instancedir C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5, trusted=true
+2018-11-01 04:25:03.177 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.trec-4-5' (registry 'solr.core.trec-4-5') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-11-01 04:25:03.192 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrCore [[trec-4-5] ] Opening new SolrCore at [C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5], dataDir=[C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5\data\]
+2018-11-01 04:25:03.239 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-11-01 04:25:03.722 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-11-01 04:25:03.722 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-11-01 04:25:03.753 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-11-01 04:25:03.753 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-11-01 04:25:04.239 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.SolrIndexSearcher Opening [Searcher@620dbb7b[trec-4-5] main]
+2018-11-01 04:25:04.251 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5\conf
+2018-11-01 04:25:04.273 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-11-01 04:25:04.282 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-11-01 04:25:04.305 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-11-01 04:25:04.315 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@620dbb7b[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_n(7.5.0):C269273) Uninverting(_1(7.5.0):C98) Uninverting(_3(7.5.0):C3277) Uninverting(_10(7.5.0):c12510) Uninverting(_6(7.5.0):C3217) Uninverting(_9(7.5.0):C2187) Uninverting(_d(7.5.0):C1949) Uninverting(_i(7.5.0):C3268) Uninverting(_p(7.5.0):C30828) Uninverting(_r(7.5.0):C28496) Uninverting(_t(7.5.0):C30020) Uninverting(_u(7.5.0):C730) Uninverting(_v(7.5.0):C142302) Uninverting(_w(7.5.0):C29259) Uninverting(_x(7.5.0):C400) Uninverting(_y(7.5.0):C28893) Uninverting(_z(7.5.0):C782) Uninverting(_11(7.5.0):C1314) Uninverting(_12(7.5.0):C28806) Uninverting(_13(7.5.0):C886)))}
+2018-11-01 04:25:04.316 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-11-01 04:25:04.316 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-11-01 04:25:04.331 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.SolrCore [trec-4-5] Registered new searcher Searcher@620dbb7b[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_n(7.5.0):C269273) Uninverting(_1(7.5.0):C98) Uninverting(_3(7.5.0):C3277) Uninverting(_10(7.5.0):c12510) Uninverting(_6(7.5.0):C3217) Uninverting(_9(7.5.0):C2187) Uninverting(_d(7.5.0):C1949) Uninverting(_i(7.5.0):C3268) Uninverting(_p(7.5.0):C30828) Uninverting(_r(7.5.0):C28496) Uninverting(_t(7.5.0):C30020) Uninverting(_u(7.5.0):C730) Uninverting(_v(7.5.0):C142302) Uninverting(_w(7.5.0):C29259) Uninverting(_x(7.5.0):C400) Uninverting(_y(7.5.0):C28893) Uninverting(_z(7.5.0):C782) Uninverting(_11(7.5.0):C1314) Uninverting(_12(7.5.0):C28806) Uninverting(_13(7.5.0):C886)))}
+2018-11-01 04:25:04.341 WARN  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.UpdateLog Starting log replay tlog{file=C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5\data\tlog\tlog.0000000000000000016 refcount=2} active=false starting pos=0 inSortedOrder=false
+2018-11-01 04:25:06.372 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=6
+2018-11-01 04:25:06.435 INFO  (qtp349420578-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=66
+2018-11-01 04:25:06.492 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=44
+2018-11-01 04:25:07.331 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=26
+2018-11-01 04:25:09.153 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:25:09.186 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541046309076} status=0 QTime=17
+2018-11-01 04:25:09.220 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541046306059&ts=1541046306059} status=503 QTime=1
+2018-11-01 04:25:09.253 INFO  (qtp349420578-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=96
+2018-11-01 04:25:09.253 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541046309076} status=0 QTime=39
+2018-11-01 04:25:09.284 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541046309076} status=0 QTime=101
+2018-11-01 04:25:11.551 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:25:11.553 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:25:11.593 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=40
+2018-11-01 04:25:11.637 INFO  (qtp349420578-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:25:11.638 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:25:11.651 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541046311518} status=0 QTime=12
+2018-11-01 04:25:11.683 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=46
+2018-11-01 04:25:11.687 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:13.714 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:14.140 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:15.533 ERROR (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.UpdateLog java.io.EOFException
+	at org.apache.solr.common.util.FastInputStream.readUnsignedByte(FastInputStream.java:72)
+	at org.apache.solr.common.util.FastInputStream.readLong(FastInputStream.java:243)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:297)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.common.util.JavaBinCodec.readSolrInputDocument(JavaBinCodec.java:603)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:315)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.common.util.JavaBinCodec.readArray(JavaBinCodec.java:747)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:272)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.update.TransactionLog$LogReader.next(TransactionLog.java:673)
+	at org.apache.solr.update.UpdateLog$LogReplayer.doReplay(UpdateLog.java:1832)
+	at org.apache.solr.update.UpdateLog$LogReplayer.run(UpdateLog.java:1747)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:209)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2018-11-01 04:25:15.666 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2018-11-01 04:25:15.681 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2018-11-01 04:25:15.687 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={core=trec-4-5&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1541046311518&verbose=false} status=0 QTime=23
+2018-11-01 04:25:15.687 INFO  (Thread-16) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2018-11-01 04:25:15.695 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:15.708 INFO  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2018-11-01 04:25:15.715 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:16.048 INFO  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.DirectUpdateHandler2 start commit{flags=2,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:25:16.048 INFO  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:25:17.717 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:19.724 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:20.763 INFO  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.s.SolrIndexSearcher Opening [Searcher@d60b9ea[trec-4-5] main]
+2018-11-01 04:25:20.766 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@d60b9ea[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_n(7.5.0):C269273) Uninverting(_1(7.5.0):C98) Uninverting(_3(7.5.0):C3277) Uninverting(_10(7.5.0):c12510) Uninverting(_6(7.5.0):C3217) Uninverting(_9(7.5.0):C2187) Uninverting(_d(7.5.0):C1949) Uninverting(_i(7.5.0):C3268) Uninverting(_p(7.5.0):C30828) Uninverting(_r(7.5.0):C28496) Uninverting(_t(7.5.0):C30020) Uninverting(_u(7.5.0):C730) Uninverting(_v(7.5.0):C142302) Uninverting(_w(7.5.0):C29259) Uninverting(_x(7.5.0):C400) Uninverting(_y(7.5.0):C28893) Uninverting(_z(7.5.0):C782) Uninverting(_11(7.5.0):C1314) Uninverting(_12(7.5.0):C28806) Uninverting(_13(7.5.0):C886) Uninverting(_15(7.5.0):C23614) Uninverting(_16(7.5.0):C6078)))}
+2018-11-01 04:25:20.766 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-11-01 04:25:20.779 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.SolrCore [trec-4-5] Registered new searcher Searcher@d60b9ea[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_n(7.5.0):C269273) Uninverting(_1(7.5.0):C98) Uninverting(_3(7.5.0):C3277) Uninverting(_10(7.5.0):c12510) Uninverting(_6(7.5.0):C3217) Uninverting(_9(7.5.0):C2187) Uninverting(_d(7.5.0):C1949) Uninverting(_i(7.5.0):C3268) Uninverting(_p(7.5.0):C30828) Uninverting(_r(7.5.0):C28496) Uninverting(_t(7.5.0):C30020) Uninverting(_u(7.5.0):C730) Uninverting(_v(7.5.0):C142302) Uninverting(_w(7.5.0):C29259) Uninverting(_x(7.5.0):C400) Uninverting(_y(7.5.0):C28893) Uninverting(_z(7.5.0):C782) Uninverting(_11(7.5.0):C1314) Uninverting(_12(7.5.0):C28806) Uninverting(_13(7.5.0):C886) Uninverting(_15(7.5.0):C23614) Uninverting(_16(7.5.0):C6078)))}
+2018-11-01 04:25:20.782 INFO  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:25:20.787 INFO  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.p.LogUpdateProcessorFactory [trec-4-5] {add=[FT931-16567 (1615904096658653185), FT931-16568 (1615904096661798912), FT931-16569 (1615904096662847488), FT931-16570 (1615904096662847489), FT931-16571 (1615904096662847490), FT931-16572 (1615904096662847491), FT931-16573 (1615904096663896064), FT931-16574 (1615904096663896065), FT931-16575 (1615904096663896066), FT931-16576 (1615904096663896067), ... (23420 adds)]} 0 16447
+2018-11-01 04:25:20.796 WARN  (recoveryExecutor-12-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.u.UpdateLog Log replay finished. recoveryInfo=RecoveryInfo{adds=23420 deletes=0 deleteByQuery=0 errors=0 positionOfStart=0}
+2018-11-01 04:25:21.722 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:23.715 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:25.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:27.716 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:29.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:31.063 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:25:31.063 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:25:31.724 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:33.725 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:34.439 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@2e123929[trec-4-5] realtime]
+2018-11-01 04:25:34.439 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:25:35.715 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:37.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:39.716 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:41.723 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:43.714 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:45.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:46.077 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:25:46.077 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:25:46.593 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@3ded61df[trec-4-5] realtime]
+2018-11-01 04:25:46.613 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:25:47.715 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:49.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:51.724 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:53.714 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:55.717 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:57.723 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:25:59.725 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:01.096 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:26:01.096 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:26:01.716 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:02.296 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@76a7919[trec-4-5] realtime]
+2018-11-01 04:26:02.311 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:26:03.714 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:05.718 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:07.724 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:09.715 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:11.722 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:13.716 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:15.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:16.108 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:26:16.108 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:26:17.266 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6dfd648d[trec-4-5] realtime]
+2018-11-01 04:26:17.297 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:26:17.725 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:19.724 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:21.716 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:23.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:25.725 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:27.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:29.716 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:31.124 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:26:31.124 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:26:31.724 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:31.906 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@5a52b6be[trec-4-5] realtime]
+2018-11-01 04:26:32.002 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:26:33.716 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:35.718 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:37.715 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:39.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:41.724 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:43.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:45.723 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:46.406 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:26:46.406 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:26:47.611 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@672e8ab1[trec-4-5] realtime]
+2018-11-01 04:26:47.627 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:26:47.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:49.726 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:51.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:53.715 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:55.725 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:57.724 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:26:59.721 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:01.421 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:27:01.421 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:27:01.721 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:02.311 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@287b3ebb[trec-4-5] realtime]
+2018-11-01 04:27:02.436 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:27:03.722 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:05.714 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:07.726 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:09.715 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:11.724 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:13.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:15.723 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:16.432 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:27:16.432 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:27:17.593 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@11afbc6d[trec-4-5] realtime]
+2018-11-01 04:27:17.624 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:27:17.716 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:19.723 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:21.715 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:23.726 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:25.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:27.723 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:29.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:31.437 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:27:31.437 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:27:31.724 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:32.313 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@26bcc96a[trec-4-5] realtime]
+2018-11-01 04:27:32.329 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:27:33.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:35.715 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:37.724 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:39.728 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:41.729 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:43.715 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:45.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:46.454 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:27:46.454 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:27:47.187 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@6dc1fdd4[trec-4-5] realtime]
+2018-11-01 04:27:47.202 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:27:47.716 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:49.724 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:51.715 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:53.715 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:55.722 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:57.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:27:59.723 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:01.469 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-01 04:28:01.469 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@1e38b86a commitCommandVersion:0
+2018-11-01 04:28:01.725 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:02.317 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@f4e7108[trec-4-5] realtime]
+2018-11-01 04:28:02.332 INFO  (commitScheduler-13-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-11-01 04:28:03.715 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:05.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:07.714 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:09.723 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:11.718 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:13.724 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:14.673 ERROR (Thread-16) [   ] o.a.s.h.d.EntityProcessorBase getNext() failed for query 'null':org.apache.solr.handler.dataimport.DataImportHandlerException: Parsing failed for xml, url:C:\Users\50500\HW01\input\trec-disk4-5_out.xml rows processed in this xml:528155 last row in this xml:{date=
+
+, $forEach=/data/DOC, dateline=[
+
+], text=[
+
+
+
+
+
+
+
+
+
+
+
+], docno= LA041489-0187 , headline=[
+
+], byline=[
+
+]} Processing Document # 528156
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:506)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:474)
+	at org.apache.solr.handler.dataimport.EntityProcessorBase.getNext(EntityProcessorBase.java:134)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.fetchNextRow(XPathEntityProcessor.java:233)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.nextRow(XPathEntityProcessor.java:212)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:183)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$1.run(XPathEntityProcessor.java:430)
+Caused by: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedEOF(StreamScanner.java:685)
+	at com.ctc.wstx.sr.BasicStreamReader.throwUnexpectedEOF(BasicStreamReader.java:5519)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2722)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1073)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:372)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:342)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.access$200(XPathRecordReader.java:198)
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:180)
+	... 1 more
+
+2018-11-01 04:28:14.673 ERROR (Thread-16) [   ] o.a.s.h.d.DocBuilder Exception while processing: page document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Parsing failed for xml, url:C:\Users\50500\HW01\input\trec-disk4-5_out.xml rows processed in this xml:528155 last row in this xml:{date=
+
+, $forEach=/data/DOC, dateline=[
+
+], text=[
+
+
+
+
+
+
+
+
+
+
+
+], docno= LA041489-0187 , headline=[
+
+], byline=[
+
+]} Processing Document # 528156
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:506)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:474)
+	at org.apache.solr.handler.dataimport.EntityProcessorBase.getNext(EntityProcessorBase.java:134)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.fetchNextRow(XPathEntityProcessor.java:233)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.nextRow(XPathEntityProcessor.java:212)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:183)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$1.run(XPathEntityProcessor.java:430)
+Caused by: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedEOF(StreamScanner.java:685)
+	at com.ctc.wstx.sr.BasicStreamReader.throwUnexpectedEOF(BasicStreamReader.java:5519)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2722)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1073)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:372)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:342)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.access$200(XPathRecordReader.java:198)
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:180)
+	... 1 more
+
+2018-11-01 04:28:14.673 INFO  (Thread-16) [   ] o.a.s.u.p.LogUpdateProcessorFactory [trec-4-5]  webapp=/solr path=/dataimport params={core=trec-4-5&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1541046311518&verbose=false} status=0 QTime=23{add=[FT941-3996 (1615904181633155072), FT941-3997 (1615904181633155073), FT941-3998 (1615904181633155074), FT941-3999 (1615904181633155075), FT941-4000 (1615904181633155076), FT941-4001 (1615904181633155077), FT941-4002 (1615904181633155078), FT941-4003 (1615904181633155079), FT941-4004 (1615904181633155080), FT941-4005 (1615904181633155081), ... (528155 adds)]} 0 179016
+2018-11-01 04:28:14.673 ERROR (Thread-16) [   ] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Parsing failed for xml, url:C:\Users\50500\HW01\input\trec-disk4-5_out.xml rows processed in this xml:528155 last row in this xml:{date=
+
+, $forEach=/data/DOC, dateline=[
+
+], text=[
+
+
+
+
+
+
+
+
+
+
+
+], docno= LA041489-0187 , headline=[
+
+], byline=[
+
+]} Processing Document # 528156
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:271)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:424)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:483)
+	at org.apache.solr.handler.dataimport.DataImporter.lambda$runAsync$0(DataImporter.java:466)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Parsing failed for xml, url:C:\Users\50500\HW01\input\trec-disk4-5_out.xml rows processed in this xml:528155 last row in this xml:{date=
+
+, $forEach=/data/DOC, dateline=[
+
+], text=[
+
+
+
+
+
+
+
+
+
+
+
+], docno= LA041489-0187 , headline=[
+
+], byline=[
+
+]} Processing Document # 528156
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:417)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:330)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:233)
+	... 4 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Parsing failed for xml, url:C:\Users\50500\HW01\input\trec-disk4-5_out.xml rows processed in this xml:528155 last row in this xml:{date=
+
+, $forEach=/data/DOC, dateline=[
+
+], text=[
+
+
+
+
+
+
+
+
+
+
+
+], docno= LA041489-0187 , headline=[
+
+], byline=[
+
+]} Processing Document # 528156
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:506)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$2.next(XPathEntityProcessor.java:474)
+	at org.apache.solr.handler.dataimport.EntityProcessorBase.getNext(EntityProcessorBase.java:134)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.fetchNextRow(XPathEntityProcessor.java:233)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor.nextRow(XPathEntityProcessor.java:212)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:267)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:476)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:415)
+	... 6 more
+Caused by: java.lang.RuntimeException: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:183)
+	at org.apache.solr.handler.dataimport.XPathEntityProcessor$1.run(XPathEntityProcessor.java:430)
+Caused by: com.ctc.wstx.exc.WstxEOFException: Unexpected EOF; was expecting a close tag for element <data>
+ at [row,col {unknown-source}]: [50014946,6]
+	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedEOF(StreamScanner.java:685)
+	at com.ctc.wstx.sr.BasicStreamReader.throwUnexpectedEOF(BasicStreamReader.java:5519)
+	at com.ctc.wstx.sr.BasicStreamReader.nextFromTree(BasicStreamReader.java:2722)
+	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1073)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:372)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.handleStartElement(XPathRecordReader.java:342)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.parse(XPathRecordReader.java:306)
+	at org.apache.solr.handler.dataimport.XPathRecordReader$Node.access$200(XPathRecordReader.java:198)
+	at org.apache.solr.handler.dataimport.XPathRecordReader.streamRecords(XPathRecordReader.java:180)
+	... 1 more
+
+2018-11-01 04:28:14.673 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2018-11-01 04:28:15.143 INFO  (Thread-16) [   ] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2018-11-01 04:28:15.143 INFO  (Thread-16) [   ] o.a.s.u.DirectUpdateHandler2 end_rollback
+2018-11-01 04:28:15.715 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:17.723 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:19.729 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:21.714 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:23.722 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:25.719 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:27.722 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:29.722 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:31.715 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:33.722 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:35.721 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:37.721 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:39.714 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:41.725 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:43.717 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:45.716 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:47.715 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:49.729 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:51.716 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:53.063 INFO  (qtp349420578-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:28:53.074 INFO  (qtp349420578-41) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541046306059&ts=1541046306059} status=503 QTime=0
+2018-11-01 04:28:53.145 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541046309076} status=0 QTime=69
+2018-11-01 04:28:53.145 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=81
+2018-11-01 04:28:53.169 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541046309076} status=0 QTime=99
+2018-11-01 04:28:53.190 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541046309076} status=0 QTime=123
+2018-11-01 04:28:56.477 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:28:56.526 INFO  (qtp349420578-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=46
+2018-11-01 04:28:56.530 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541046309076} status=0 QTime=47
+2018-11-01 04:28:57.264 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:28:57.266 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:28:57.311 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=45
+2018-11-01 04:28:57.359 INFO  (qtp349420578-48) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:28:57.360 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:28:57.361 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:57.388 INFO  (qtp349420578-48) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:28:57.402 INFO  (qtp349420578-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=42
+2018-11-01 04:29:02.481 INFO  (qtp349420578-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:02.511 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=29
+2018-11-01 04:29:03.973 INFO  (qtp349420578-48) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/select params={q=*:*&_=1541046542440} hits=648187 status=0 QTime=43
+2018-11-01 04:29:07.725 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:07.731 INFO  (qtp349420578-48) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541046306059&ts=1541046306059} status=503 QTime=0
+2018-11-01 04:29:07.804 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=80
+2018-11-01 04:29:07.805 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541046309076} status=0 QTime=77
+2018-11-01 04:29:07.825 INFO  (qtp349420578-40) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541046309076} status=0 QTime=98
+2018-11-01 04:29:07.837 INFO  (qtp349420578-41) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541046309076} status=0 QTime=112
+2018-11-01 04:29:09.999 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:10.034 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541046309076} status=0 QTime=32
+2018-11-01 04:29:10.040 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=41
+2018-11-01 04:29:10.651 INFO  (qtp349420578-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:10.652 INFO  (qtp349420578-41) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:29:10.696 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=44
+2018-11-01 04:29:10.738 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:10.739 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541046311517} status=0 QTime=0
+2018-11-01 04:29:10.740 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541046311518} status=0 QTime=0
+2018-11-01 04:29:10.766 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541046311518} status=0 QTime=0
+2018-11-01 04:29:10.777 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=38
+2018-11-01 04:29:27.842 INFO  (qtp349420578-41) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:27.847 INFO  (qtp349420578-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541046567783&since=0} status=0 QTime=2
+2018-11-01 04:29:27.880 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=37
+2018-11-01 04:29:37.789 INFO  (qtp349420578-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541046567783&since=0} status=0 QTime=0
+2018-11-01 04:29:39.082 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541046306059} status=0 QTime=0
+2018-11-01 04:29:39.096 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541046306059&ts=1541046306059} status=503 QTime=0
+2018-11-01 04:29:39.161 INFO  (qtp349420578-48) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541046309076} status=0 QTime=69
+2018-11-01 04:29:39.161 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541046306059} status=0 QTime=78
+2018-11-01 04:29:39.172 INFO  (qtp349420578-15) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541046309076} status=0 QTime=81
+2018-11-01 04:29:39.179 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541046309076} status=0 QTime=95

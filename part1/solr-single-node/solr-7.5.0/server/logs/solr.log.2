@@ -1,0 +1,281 @@
+2018-10-31 22:56:58.932 INFO  (main) [   ] o.e.j.u.log Logging initialized @1367ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-10-31 22:56:59.111 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_181-b13
+2018-10-31 22:56:59.153 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/50500/HW01/solr-7.5.0/server/contexts/] at interval 0
+2018-10-31 22:56:59.857 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-10-31 22:56:59.864 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2018-10-31 22:56:59.865 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2018-10-31 22:56:59.870 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2018-10-31 22:56:59.919 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2018-10-31 22:56:59.945 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2018-10-31 22:56:59.949 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.5.0
+2018-10-31 22:56:59.950 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-10-31 22:56:59.950 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\50500\HW01\solr-7.5.0
+2018-10-31 22:56:59.950 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-10-31T22:56:59.950Z
+2018-10-31 22:56:59.974 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\50500\HW01\solr-7.5.0\server\solr
+2018-10-31 22:56:59.980 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\50500\HW01\solr-7.5.0\server\solr\solr.xml
+2018-10-31 22:57:00.035 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487, but no JMX reporters were configured - adding default JMX reporter.
+2018-10-31 22:57:01.466 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-10-31 22:57:01.469 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2018-10-31 22:57:01.541 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-10-31 22:57:01.542 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-10-31 22:57:01.548 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-10-31 22:57:01.587 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\50500\HW01\solr-7.5.0\server\solr
+2018-10-31 22:57:01.587 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [trec-4-5]
+2018-10-31 22:57:01.645 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrResourceLoader [trec-4-5] Added 58 libs to classloader, from paths: [/C:/Users/50500/HW01/solr-7.5.0/contrib/clustering/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/extraction/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/langid/lib, /C:/Users/50500/HW01/solr-7.5.0/contrib/velocity/lib, /C:/Users/50500/HW01/solr-7.5.0/dist]
+2018-10-31 22:57:01.801 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.5.0
+2018-10-31 22:57:01.906 WARN  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2018-10-31 22:57:01.954 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.IndexSchema [trec-4-5] Schema name=default-config
+2018-10-31 22:57:02.132 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@445b295b{/solr,file:///C:/Users/50500/HW01/solr-7.5.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\50500\HW01\solr-7.5.0\server/solr-webapp/webapp}
+2018-10-31 22:57:02.155 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@749c877b{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-10-31 22:57:02.158 INFO  (main) [   ] o.e.j.s.Server Started @4595ms
+2018-10-31 22:57:02.428 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-10-31 22:57:02.471 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.CoreContainer Creating SolrCore 'trec-4-5' using configuration from instancedir C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5, trusted=true
+2018-10-31 22:57:02.497 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.trec-4-5' (registry 'solr.core.trec-4-5') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@27c6e487
+2018-10-31 22:57:02.514 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.c.SolrCore [[trec-4-5] ] Opening new SolrCore at [C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5], dataDir=[C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5\data\]
+2018-10-31 22:57:02.567 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-10-31 22:57:03.035 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-10-31 22:57:03.035 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-10-31 22:57:03.046 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2018-10-31 22:57:03.046 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-31 22:57:03.101 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.SolrIndexSearcher Opening [Searcher@655865a6[trec-4-5] main]
+2018-10-31 22:57:03.116 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\50500\HW01\solr-7.5.0\server\solr\trec-4-5\conf
+2018-10-31 22:57:03.139 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-10-31 22:57:03.146 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-10-31 22:57:03.174 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-31 22:57:03.180 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@655865a6[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-31 22:57:03.180 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-31 22:57:03.180 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-10-31 22:57:03.186 INFO  (coreLoadExecutor-9-thread-1) [   x:trec-4-5] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1615883532433883136
+2018-10-31 22:57:03.189 INFO  (searcherExecutor-10-thread-1-processing-x:trec-4-5) [   x:trec-4-5] o.a.s.c.SolrCore [trec-4-5] Registered new searcher Searcher@655865a6[trec-4-5] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-31 22:57:06.818 INFO  (qtp349420578-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=25
+2018-10-31 22:57:09.550 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=1
+2018-10-31 22:57:09.563 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=8
+2018-10-31 22:57:09.611 INFO  (qtp349420578-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=56
+2018-10-31 22:57:11.534 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 22:57:11.543 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541026631521} status=0 QTime=7
+2018-10-31 22:57:11.575 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=41
+2018-10-31 22:57:12.235 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 22:57:12.236 INFO  (qtp349420578-20) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541026631521} status=0 QTime=0
+2018-10-31 22:57:12.243 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541026632194} status=0 QTime=7
+2018-10-31 22:57:12.248 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541026629324&ts=1541026629324} status=503 QTime=2
+2018-10-31 22:57:12.315 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=81
+2018-10-31 22:57:12.315 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541026632193} status=0 QTime=74
+2018-10-31 22:57:12.919 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 22:57:12.920 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541026631521} status=0 QTime=1
+2018-10-31 22:57:12.956 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=37
+2018-10-31 22:57:13.703 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 22:57:13.703 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:13.751 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=48
+2018-10-31 22:57:13.782 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 22:57:13.783 INFO  (qtp349420578-20) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:13.791 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541026629525} status=0 QTime=7
+2018-10-31 22:57:13.816 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:13.825 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=43
+2018-10-31 22:57:21.241 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:21.814 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2018-10-31 22:57:21.822 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration id is a required field in SolrSchema . But not found in DataConfig
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :date present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :dateline present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :in present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :profile present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :cn present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :docno present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :xx1 present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :xx3 present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :xx2 present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :text present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :page present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :tp present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :pub present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :headline present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.823 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.c.DIHConfiguration The field :byline present in DataConfig does not have a counterpart in Solr Schema
+2018-10-31 22:57:21.824 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2018-10-31 22:57:21.836 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={core=trec-4-5&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1541026629525&verbose=false} status=0 QTime=23
+2018-10-31 22:57:21.836 INFO  (Thread-16) [   ] o.a.s.h.d.DataImporter Starting Full Import
+2018-10-31 22:57:21.847 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:21.858 WARN  (Thread-16) [   ] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2018-10-31 22:57:23.243 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:25.248 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:27.244 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:29.262 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:31.272 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:33.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:35.847 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:36.839 INFO  (Thread-16) [   ] o.a.s.h.d.DocBuilder Time taken = 0:0:14.980
+2018-10-31 22:57:36.839 INFO  (Thread-16) [   ] o.a.s.u.p.LogUpdateProcessorFactory [trec-4-5]  webapp=/solr path=/dataimport params={core=trec-4-5&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1541026629525&verbose=false} status=0 QTime=23{} 0 15027
+2018-10-31 22:57:37.850 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:39.845 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:41.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:43.846 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:45.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:47.845 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:49.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:51.845 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:53.848 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:55.848 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:57.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:57:59.846 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:01.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:03.847 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:05.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:07.847 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:09.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:11.848 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:13.848 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:15.846 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:17.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:19.847 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:21.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:23.845 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:25.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:27.845 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:29.844 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:31.846 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:33.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:35.846 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:37.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:39.844 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:41.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:43.847 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:45.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:47.848 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:49.848 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:51.848 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:53.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:55.845 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:57.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:58:59.847 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:01.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:03.846 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:05.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:07.846 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:09.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:11.848 INFO  (qtp349420578-19) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:13.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:15.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:17.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:19.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:21.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:23.847 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:25.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:27.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:29.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:31.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:33.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:35.847 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:37.850 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:39.852 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:41.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:43.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:45.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:47.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:49.848 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:51.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:53.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:55.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:57.848 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 22:59:59.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:01.844 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:03.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:05.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:07.847 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:09.844 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:11.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:13.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:15.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:17.846 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:19.847 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:21.847 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:23.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:25.844 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:27.845 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:29.845 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:31.846 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:33.567 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:35.241 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:37.240 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:38.350 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:38.353 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541026631521} status=0 QTime=0
+2018-10-31 23:00:38.355 INFO  (qtp349420578-39) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541026629324&ts=1541026629324} status=503 QTime=0
+2018-10-31 23:00:38.355 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541026632194} status=0 QTime=2
+2018-10-31 23:00:38.422 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541026632193} status=0 QTime=69
+2018-10-31 23:00:38.422 INFO  (qtp349420578-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=72
+2018-10-31 23:00:42.393 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:42.395 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:42.443 INFO  (qtp349420578-38) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=49
+2018-10-31 23:00:42.476 INFO  (qtp349420578-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:42.477 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:42.478 INFO  (qtp349420578-20) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:42.497 INFO  (qtp349420578-39) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:00:42.513 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=37
+2018-10-31 23:00:43.881 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:43.882 INFO  (qtp349420578-38) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541026631521} status=0 QTime=0
+2018-10-31 23:00:43.883 INFO  (qtp349420578-39) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541026632194} status=0 QTime=1
+2018-10-31 23:00:43.884 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541026629324&ts=1541026629324} status=503 QTime=0
+2018-10-31 23:00:43.947 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=66
+2018-10-31 23:00:43.947 INFO  (qtp349420578-43) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541026632193} status=0 QTime=66
+2018-10-31 23:00:46.386 INFO  (qtp349420578-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:46.425 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=39
+2018-10-31 23:00:47.728 INFO  (qtp349420578-20) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/select params={q=*:*&_=1541026846354} hits=0 status=0 QTime=29
+2018-10-31 23:00:50.012 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:00:50.013 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541026631521} status=0 QTime=0
+2018-10-31 23:00:50.015 INFO  (qtp349420578-43) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541026632194} status=0 QTime=1
+2018-10-31 23:00:50.015 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541026629324&ts=1541026629324} status=503 QTime=0
+2018-10-31 23:00:50.074 INFO  (qtp349420578-24) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541026632193} status=0 QTime=60
+2018-10-31 23:00:50.075 INFO  (qtp349420578-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=63
+2018-10-31 23:03:05.166 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:05.169 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541026631521} status=0 QTime=2
+2018-10-31 23:03:05.203 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=37
+2018-10-31 23:03:05.695 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:05.699 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:05.739 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=43
+2018-10-31 23:03:05.785 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:05.786 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:05.789 INFO  (qtp349420578-39) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:05.814 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:05.821 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=35
+2018-10-31 23:03:06.114 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:06.117 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1541026631521} status=0 QTime=2
+2018-10-31 23:03:06.144 INFO  (qtp349420578-39) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=29
+2018-10-31 23:03:06.689 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:06.690 INFO  (qtp349420578-23) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:06.727 INFO  (qtp349420578-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=37
+2018-10-31 23:03:06.763 INFO  (qtp349420578-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:06.765 INFO  (qtp349420578-39) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:06.767 INFO  (qtp349420578-21) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:06.782 INFO  (qtp349420578-17) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1541026629525} status=0 QTime=0
+2018-10-31 23:03:06.798 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=34
+2018-10-31 23:03:53.586 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:03:53.587 INFO  (qtp349420578-16) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1541026631521} status=0 QTime=0
+2018-10-31 23:03:53.589 INFO  (qtp349420578-18) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/replication params={wt=json&command=details&_=1541026632194} status=0 QTime=2
+2018-10-31 23:03:53.592 INFO  (qtp349420578-22) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1541026629324&ts=1541026629324} status=503 QTime=0
+2018-10-31 23:03:53.645 INFO  (qtp349420578-20) [   x:trec-4-5] o.a.s.c.S.Request [trec-4-5]  webapp=/solr path=/admin/system params={wt=json&_=1541026632193} status=0 QTime=56
+2018-10-31 23:03:53.646 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=59
+2018-10-31 23:04:02.901 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1541026629323} status=0 QTime=0
+2018-10-31 23:04:02.904 INFO  (qtp349420578-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=2
+2018-10-31 23:04:02.934 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1541026629324} status=0 QTime=32
+2018-10-31 23:04:12.892 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:04:22.894 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:04:33.856 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:04:44.857 INFO  (qtp349420578-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:04:55.846 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:05.854 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:16.845 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:26.850 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:36.849 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:46.853 INFO  (qtp349420578-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:05:57.845 INFO  (qtp349420578-38) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:06:07.853 INFO  (qtp349420578-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1541027042887&since=0} status=0 QTime=0
+2018-10-31 23:06:09.224 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@749c877b{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2018-10-31 23:06:09.224 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2018-10-31 23:06:09.224 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=52514534
+2018-10-31 23:06:09.224 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-10-31 23:06:09.224 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3c9bfddc: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@5f2c2bea
+2018-10-31 23:06:09.239 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-10-31 23:06:09.239 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@3a0d172f: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@10e8332a
+2018-10-31 23:06:09.239 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-10-31 23:06:09.239 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@68ad99fe: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@64c01abc
+2018-10-31 23:06:09.239 INFO  (coreCloseExecutor-15-thread-1) [   x:trec-4-5] o.a.s.c.SolrCore [trec-4-5]  CLOSING SolrCore org.apache.solr.core.SolrCore@54c87759
+2018-10-31 23:06:09.239 INFO  (coreCloseExecutor-15-thread-1) [   x:trec-4-5] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.trec-4-5, tag=54c87759
+2018-10-31 23:06:09.239 INFO  (coreCloseExecutor-15-thread-1) [   x:trec-4-5] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@4ecd4ae9: rootName = null, domain = solr.core.trec-4-5, service url = null, agent id = null] for registry solr.core.trec-4-5 / com.codahale.metrics.MetricRegistry@a7c36e3
+2018-10-31 23:06:09.286 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@445b295b{/solr,null,UNAVAILABLE}{C:\Users\50500\HW01\solr-7.5.0\server/solr-webapp/webapp}

@@ -1,0 +1,23 @@
+import org.apache.lucene.analysis.PorterStemFilter;
+import org.apache.lucene.analysis.StopFilter;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.standard.StandardTokenizer;
+import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
+import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
+import org.apache.lucene.analysis.tokenattributes.TermAttribute;
+import org.apache.lucene.util.Version;
+import org.apache.lucene.analysis.Analyzer;
+
+
+public class CustomAnalyzer extends Analyzer {
+
+    protected TokenStreamComponents createComponents(String s) {
+        StringReader reader = new StringReader(s);
+        final Tokenizer whitespaceTokenizer = new WhitespaceTokenizer();
+	whitespaceTokenizer.setReader(reader);
+
+	TokenStream tokenStream = new StopFilter(whitespaceTokenizer, StopAnalyzer.ENGLISH_STOP_WORDS_SET);
+	tokenStream = new PorterStemFilter(tokenStream);
+        return new TokenStreamComponents(whitespaceTokenizer, tokenStream);
+    }
+}

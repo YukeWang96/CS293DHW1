@@ -1,0 +1,23 @@
+<dataConfig>
+ <dataSource type="FileDataSource" encoding="UTF-8"/>
+  <document>
+    <entity name="page" processor="XPathEntityProcessor" stream="true" forEach="/data/DOC" url="../../../../../../input/trec-disk4-5_sample.xml" >
+        <field column="docno" xpath="/data/DOC/DOCNO"/>
+        <field column="profile" xpath="/data/DOC/PROFILE"/>
+        <field column="date" xpath="/data/DOC/DATE"/>
+        <field column="headline" xpath="/data/DOC/HEADLINE"/>
+        <field column="byline" xpath="/data/DOC/BYLINE"/>
+        <field column="dateline" xpath="/data/DOC/DATELINE"/>
+        <field column="text" xpath="/data/DOC/TEXT"/>
+        <field column="xx1" xpath="/data/DOC/XX"/>
+        <field column="cn" xpath="/data/DOC/CN"/>
+        <field column="xx2" xpath="/data/DOC/XX"/>
+        <field column="in" xpath="/data/DOC/IN"/>
+        <field column="xx3" xpath="/data/DOC/XX"/>
+        <field column="tp" xpath="/data/DOC/TP"/>
+        <field column="pub" xpath="/data/DOC/PUB"/>
+        <field column="page" xpath="/data/DOC/PAGE"/>
+    </entity>
+    <!-- </entity> -->
+  </document>
+</dataConfig>
