@@ -11,4 +11,5 @@ Group members: `Yuke Wang` and `Dheeraj Baby`
 +  input: sample input data files of `trec-disk-4-5` for both `solr-single-node` and `solr-cloud`, only contains the docments from line 1 ~ 100,000
 
 ## Part 2
-+ 
++  Contains all required files for part 2 of the homework 1 <br/>
++  Please refer to the project report for detailed instructions on compiling and testing <br/>
