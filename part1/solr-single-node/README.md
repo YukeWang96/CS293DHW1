@@ -17,3 +17,6 @@ The originally `TREC Disk 4-5 data file(.xml)` doesn’t strictly comply with th
 > + Open the browser and go to `localhost:8983/solr` and using select the core `trec` from the scroll list, and select the data import bar and select `full-import`, the solr will start to index the data.
 > + After data is finished imported, go to the query page and start the query by typing the keyword for search in whole text or search in certain fields.
 > + Checkout the high light box to highlight the words in the text that match the query.
+
+
+**The file `server` contains the core configuration of solr-single-node, the whole project source code has not been uploaded due to the size limits of turnin homework at CSIL.  The `input` file contains a sample data of trec-disk4-5 line 1 - 100,000. But you can check out the source code of the whole project at https://github.com/YukeWang96/CS293DHW1.git**

@@ -27,3 +27,5 @@ We use `Solr + Zookeeper`, and three CSIL machines(`csil-01, csil-20, csil-03`)t
 > `&collection.configName=solrCloudconf`<br/>
 + Go to the http://csil-01-ip:8983/solr and create a new core and specify the solrCloud collection and solrCloudconfig which we just created.
 + Import the data into the new core by using the same URL as the single node, then the solrCloud will automatically create shreds and replicas for you on different machines within the cluster.
+
+**The configured file `server` of `solr` and `conf` of `zookeeper` are the main configuration files of solr-cloud. The whole project source code has not been uploaded due to the size limits of turnin homework at CSIL. The `input` file contains a sample data of trec-disk4-5 line 1 - 100,000.  But you can check out the source code of the whole project at https://github.com/YukeWang96/CS293DHW1.git**
